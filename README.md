@@ -1,1 +1,5 @@
 # InsectClassificationChallenge
+
+During this two-week challenge the goal was to have the best performance on insect recognition with the f1-Score metrics. The difficulties were that the dataset was very unbalanced and that we only had 30 hours/week of GPU to train our network.
+I decided to do a transfer learning with an InceptionV3 because of problems with other pretrained models but I have explained this in more detail in my notebook.
+Finally the f1-score accuracy I got was 48% in training and 46% in validation which is not bad considering our teacher's result was 58%, only in the test phase my predictions were relatively bad with 7% accuracy. I spent some time on it and asked my teachers for help during the course but the error was not found. Waiting for the correction to find out where my error came from.
